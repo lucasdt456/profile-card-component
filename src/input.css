@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+    h2 {
+        @apply text-lg font-bold text-gray-700 text-center 
+    }
+    p {
+        @apply text-gray-500 
+    }
+}
+
+@theme {
+  --color-Blue-600: hsl(185, 75%, 39%);
+  --color-Navy-950: hsl(229, 23%, 23%);
+  --color-Gray-500: hsl(227, 10%, 46%);
+  --color-Gray-100: hsl(225, 10%, 92%);
+
+  --font-kumbh-sans: "Kumbh Sans";
+}
+
+@font-face {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../assets/fonts/Kumbh_Sans/KumbhSans-VariableFont_YOPQ,wght.woff2") format("woff2");
+}
