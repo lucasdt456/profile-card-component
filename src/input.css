@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @layer base {
-    h2 {
-        @apply text-lg font-bold text-gray-700 text-center 
+    h2, h1 {
+        @apply text-lg font-bold text-gray-700 text-center;
     }
     p {
         @apply text-gray-500 
